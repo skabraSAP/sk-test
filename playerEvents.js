@@ -1,5 +1,6 @@
 kWidget.addReadyCallback(function(playerId) {
     var kdp = document.getElementById(playerId);
+
     kdp.kBind('mediaReady', function() {
         debugger;
         alert("Hey Hey for 'mediaReady'");
